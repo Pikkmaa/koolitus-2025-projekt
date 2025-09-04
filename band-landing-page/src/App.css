@@ -1,5 +1,4 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -39,5 +38,208 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background: url("/images/night-flies.jpg") center center / cover no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.banner .container {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.streaming-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.stream-link {
+  color: #9ca3af;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.stream-link:hover {
+  transform: scale(1.3);
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .stream-link svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.banner h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.form input {
+  margin-bottom: 5px;
+  width: 200px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #ffffff;
+  color: #000000;
+}
+
+.form label {
+  margin-top: 5px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.form-tabel {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+  background: #ffffff;
+  color: #000000;
+  border: 1px solid #ddd;
+}
+
+.form-tabel th,
+.form-tabel td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.form-tabel thead {
+  background-color: #6a0dad;
+  color: #ffffff;
+}
+
+
+.events-page {
+  margin-top: 35px;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  width: 80%;
+  max-width: 1000px;
+}
+
+.tabs input[type="radio"] {
+  display: none;
+}
+
+.tabs label {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  border-radius: 6px 6px 0 0;
+  background: #f0f0f0;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+.tabs input[type="radio"]:checked + label {
+  background: #6a0dad;
+  color: #fff;
+  font-weight: bold;
+}
+
+.tab-labels {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+
+.tab-content {
+  display: none;
+  padding: 1rem;
+  background: #ffffff;
+  color: #000;
+  border: 1px solid #ddd;
+  border-top: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#upcoming:checked ~ #upcoming-content,
+#past:checked ~ #past-content {
+  display: block;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.event-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  background: #6a0dad;
+  color: white;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: #9c27b0;
+}
+
+.no-events {
+  text-align: center;
+  padding: 2rem;
+  color: #555;
+}
+
+.no-events p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
 }
 

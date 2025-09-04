@@ -3,7 +3,6 @@ import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { SlSocialSpotify } from "react-icons/sl";
 import { TfiYoutube } from "react-icons/tfi";
 import { SiApplemusic } from "react-icons/si";
-import "./Home.css";
 
 function Home() {
   return (
