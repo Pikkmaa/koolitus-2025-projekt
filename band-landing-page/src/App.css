@@ -1,7 +1,7 @@
 #root {
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  padding-bottom: 1px;
 }
 
 .logo {
@@ -100,6 +100,7 @@
 
 
 .form {
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -118,7 +119,7 @@
 
 .form label {
   margin-top: 5px;
-  color: #ffffff;
+  color: #463855;
   font-weight: 500;
 }
 
@@ -145,7 +146,7 @@
 
 
 .events-page {
-  margin-top: 35px;
+  padding-top: 60px;
 }
 
 .tabs {
@@ -242,4 +243,50 @@
   margin-bottom: 1rem;
   font-size: 1.1rem;
 }
+
+.booking-page {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.booking-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.booking-form input,
+.booking-form textarea {
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 0.4rem;
+}
+
+.booking-form button {
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  background: #6a0dad;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.booking-form button:hover {
+  background: #9c27b0;
+}
+
 

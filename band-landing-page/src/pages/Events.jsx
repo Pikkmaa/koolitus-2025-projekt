@@ -1,15 +1,29 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import eventsFromFile from "../data/events.json";
+import { Spinner } from "react-bootstrap";
 
 function Events() {
-  const [events] = useState(eventsFromFile.slice());
+  const [events, setEvents] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  const eventsUrl = "https://night-flies-page-default-rtdb.europe-west1.firebasedatabase.app/events.json"
+
+  useEffect(() => {
+    fetch(eventsUrl)
+    .then((res) => res.json())
+    .then((json) => {setEvents(json || []);
+    setLoading(false)
+    });
+  }, []);
+
+  if (loading) {
+    return <Spinner animation="border" variant="info" />
+    }
 
   const now = new Date();
 
   const upcoming = events.filter((e) => new Date(e.date) >= now);
   const past = events.filter((e) => new Date(e.date) < now);
-  const isUpcoming = new Date(event.date) >= now;
 
   const renderEventCard = (event) => (
     <div className="card" key={event.title}>
@@ -27,7 +41,7 @@ function Events() {
             Facebook Event
           </a>
         )}
-        {isUpcoming && event.tickets && (
+        {upcoming && event.tickets && (
           <a
             href={event.tickets}
             target="_blank"

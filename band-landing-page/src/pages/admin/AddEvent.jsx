@@ -1,18 +1,26 @@
-import { useRef, useState } from "react";
-import eventsFromFile from "../../data/events.json"
+import { useEffect, useRef, useState } from "react";
 import toast from "react-hot-toast";
 
 function AddEvent() {
-    const [events, setEvents] = useState(eventsFromFile.slice());
+    const [events, setEvents] = useState([]);
     const titleRef = useRef();
     const fbLinkRef = useRef();
     const dateRef = useRef();
     const ticketsRef = useRef();
     const locationRef = useRef();
 
+    const eventsUrl = "https://night-flies-page-default-rtdb.europe-west1.firebasedatabase.app/events.json"
+
+    useEffect(() => {
+        fetch(eventsUrl)
+        .then((res) => res.json())
+        .then((json) => setEvents(json || []));
+    }, []);
+
     function remove(index) {
-        eventsFromFile.splice(index, 1);
-        setEvents(eventsFromFile.slice());
+        events.splice(index, 1);
+        setEvents(events.slice());
+        fetch(eventsUrl, {method: "PUT", body: JSON.stringify(events)});
     }
 
     function addEvent() {
@@ -24,16 +32,17 @@ function AddEvent() {
             toast.error("Date and rime is mandatory");
             return;
         }
-        eventsFromFile.push({
-            title: titleRef.current.value,
-            facebook: fbLinkRef.current.value,
-            date: dateRef.current.value,
-            tickets: ticketsRef.current.value,
-            location: locationRef.current.value,
+        events.push({
+            "title": titleRef.current.value,
+            "facebook": fbLinkRef.current.value,
+            "date": dateRef.current.value,
+            "tickets": ticketsRef.current.value,
+            "location": locationRef.current.value,
 
         });
-        setEvents(eventsFromFile.slice());
-        toast.success("Event added succesfully!")
+        toast.success("Event added succesfully!");
+        setEvents(events.slice());
+        fetch(eventsUrl, {method: "PUT", body: JSON.stringify(events)});
     }
 
 
@@ -70,7 +79,6 @@ function AddEvent() {
                     <th>Date</th>
                     <th>Tickets</th>
                     <th>Location</th>
-                    <th>Edit</th>
                     <th>Remove</th>
                 </tr>
                 </thead>
