@@ -11,6 +11,7 @@ import Booking from "./pages/Booking";
 import Info from "./pages/Info";
 import Bio from "./pages/Bio";
 import AddEvent from "./pages/admin/AddEvent";
+import AddMerch from './pages/admin/Addmerch';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/info" element={<Info />} />
 
           <Route path="/admin/add-event" element={<AddEvent />} />
+          <Route path="/admin/add-merch" element={<AddMerch />} />
         </Routes>
         <Toaster position="top-right" />
     </div>

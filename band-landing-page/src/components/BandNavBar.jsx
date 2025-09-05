@@ -34,6 +34,9 @@ function BandNavBar() {
             <Nav.Link as={NavLink} to="/admin/add-event">
               Add Event
             </Nav.Link>
+            <Nav.Link as={NavLink} to="/admin/add-merch">
+              Add Merch
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
