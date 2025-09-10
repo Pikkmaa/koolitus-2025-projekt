@@ -2,9 +2,7 @@ import './App.css'
 import {Routes, Route } from "react-router-dom";
 import BandNavbar from "./components/BandNavBar";
 import { Toaster } from "react-hot-toast";
-
 import Home from "./pages/Home";
-import Music from "./pages/Music";
 import Events from "./pages/Events";
 import Merch from "./pages/Merch";
 import Booking from "./pages/Booking";

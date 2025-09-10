@@ -43,7 +43,7 @@
 .banner {
   width: 100%;
   height: 100vh;
-  background: url("/images/night-flies.jpg") center center / cover no-repeat;
+  background: url("/images/night-flies.png") center center / cover no-repeat;
   position: relative;
   display: flex;
   justify-content: center;
@@ -311,5 +311,126 @@
   text-align: center;
 }
 
+.info-page {
+  padding-top: 60px;
+}
+
+#general:checked ~ #general-content,
+#organizer:checked ~ #organizer-content {
+  display: block;
+}
+
+/* General page layout */
+.bio-page {
+  background: #fafafa; /* light background */
+  color: #222;         /* dark text for readability */
+  padding-top: 80px;   /* avoid navbar overlap */
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Sidebar */
+.bio-sidebar .offcanvas-body {
+  padding: 0;
+  background: #fff;
+}
+
+.bio-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bio-nav li {
+  padding: 12px 16px;
+  cursor: pointer;
+  border-bottom: 1px solid #eaeaea;
+  transition: background 0.2s, color 0.2s;
+}
+
+.bio-nav li:hover {
+  background: rgba(255, 0, 128, 0.1); /* soft pink hover */
+  color: #ff0080;
+}
+
+/* Sidebar toggle button */
+.bio-sidebar-toggle {
+  position: fixed;
+  top: 90px;
+  left: 20px;
+  z-index: 1050;
+  background: #fff;
+  border: 2px solid #ff0080;
+  color: #ff0080;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.bio-sidebar-toggle:hover {
+  background: #ff0080;
+  color: #fff;
+}
+
+/* Carousel */
+.bio-carousel img {
+  max-height: 550px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.bio-carousel .carousel-caption {
+  background: rgba(255, 255, 255, 0.8);
+  color: #222;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Sections */
+.bio-section {
+  margin-top: 60px;
+  padding: 20px;
+  border-left: 4px solid #ff0080;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.bio-section h2 {
+  color: #ff0080;
+  margin-bottom: 16px;
+}
+
+/* Album covers */
+.album-cover {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 2px solid #ff0080;
+  box-shadow: 0px 4px 10px rgba(255, 0, 128, 0.2);
+}
+
+/* Map */
+.leaflet-container {
+  border: 2px solid #ff0080;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0px 4px 12px rgba(255, 0, 128, 0.2);
+}
+
+/* Links */
+.bio-section a {
+  color: #ff0080;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.bio-section a:hover {
+  color: #222;
+  text-decoration: underline;
+}
 
 

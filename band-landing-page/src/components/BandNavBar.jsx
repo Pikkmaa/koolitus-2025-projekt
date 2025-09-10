@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 
 function BandNavBar() {
   return (
@@ -28,12 +28,14 @@ function BandNavBar() {
             <Nav.Link as={NavLink} to="/info">
               Info
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/admin/add-event">
-              Add Event
-            </Nav.Link>
-            <Nav.Link as={NavLink} to="/admin/add-merch">
-              Add Merch
-            </Nav.Link>
+            <NavDropdown title="Admin" id="admin-dropdown">
+              <NavDropdown.Item as={NavLink} to="/admin/add-event">
+                Add Event
+              </NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/admin/add-merch">
+                Add Merch
+              </NavDropdown.Item>
+            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Container>
