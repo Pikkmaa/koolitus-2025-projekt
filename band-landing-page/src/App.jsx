@@ -19,7 +19,6 @@ function App() {
     <BandNavbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/music" element={<Music />} />
           <Route path="/bio" element={<Bio />} />
           <Route path="/events" element={<Events />} />
           <Route path="/merch" element={<Merch />} />

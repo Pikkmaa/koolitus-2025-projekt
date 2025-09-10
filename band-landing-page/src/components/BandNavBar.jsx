@@ -13,9 +13,6 @@ function BandNavBar() {
         <Navbar.Toggle aria-controls="band-navbar-nav" />
         <Navbar.Collapse id="band-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link as={NavLink} to="/music">
-              Music
-            </Nav.Link>
             <Nav.Link as={NavLink} to="/bio">
               Bio
             </Nav.Link>
