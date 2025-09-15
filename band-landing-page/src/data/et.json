@@ -1,0 +1,64 @@
+{
+  "navbar": {
+    "bio": "Meist",
+    "events": "Sündmused",
+    "merch": "Merch",
+    "booking": "Broneering",
+    "info": "Info",
+    "admin": "Admin",
+    "addEvent": "Lisa sündmus",
+    "addMerch": "Lisa merch"
+  },
+  "home": {
+    "follow": "Jälgi & Kuula"
+  },
+  "bio": {
+    "carousel": [
+      {
+        "title": "Night Flies",
+        "caption": "Clen Kink - Toomas Pikkmaa - Anna Siitan - Martin Parts - Madis Koll",
+        "image": "/images/night-flies.png"
+      },
+      {
+        "title": "Laval",
+        "caption": "Energia ja kirega live-esinemised",
+        "image": "/images/kinomaja_live.jpg"
+      },
+      {
+        "title": "Suvefestivalid",
+        "caption": "Väike vihmasadu meid ei morjenda!",
+        "image": "/images/NightFlies-074.jpg"
+      }
+    ],
+    "sections": {
+      "earlyYears": {
+        "title": "Early Years",
+        "text": "Night Flies was founded in Tallinn... The first lineup included founding members with later changes shaping the sound."
+      },
+      "firstAlbum": {
+        "title": "Esimene Album",
+        "albumTitle": "Smooth",
+        "image": "/images/smooth.png",
+        "description": "28. aprillil 2023 jõudis rokisõpradeni Night Fliesi esimene täispikk album \"Smooth.\" Albumil kõlab üheksa mõnusat ja kaasahaaravat lugu, mis on ideaalne soundtrack suveks - aknad lahti, heli põhja. Albumil kõlav muusika räägib mööduvatest hetkedest, emotsioonidest ja mõtetest, mis lendavad mööda nagu kuum suveöö. Lood on salvestatud legendaarses Linnahalli stuudios Elmu Värgi hoolsa pilgu all.\nBändi koosseis: Anna Siitan – vokaal, Madis Koll ja Martin Parts – kitarrid, Toomas Pikkmaa – bass ja Karl Martin Kukk – trummid."
+      },
+      "secondAlbum": {
+        "title": "Teine Album",
+        "albumTitle": "Four in the Morning",
+        "image": "/images/4am.jpg",
+        "description": "Lorem ipsum description of the second album..."
+      },
+      "lives": {
+        "title": "Esinemised",
+        "text": "Night Flies has performed across multiple cities... Here are some locations."
+      },
+      "tvRadio": {
+        "title": "TV & Radio Appearances",
+        "text": "The band has been featured in Estonian radio & TV shows.",
+        "links": [
+          { "name": "ETV Interview 2022", "url": "https://example.com" },
+          { "name": "Radio 2 Live Session", "url": "https://example.com" }
+        ]
+      }
+    }
+  }
+}

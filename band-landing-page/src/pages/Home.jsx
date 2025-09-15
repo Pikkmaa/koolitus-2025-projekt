@@ -3,12 +3,14 @@ import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { SlSocialSpotify } from "react-icons/sl";
 import { TfiYoutube } from "react-icons/tfi";
 import { SiApplemusic } from "react-icons/si";
+import { useTranslation } from "react-i18next";
 
 function Home() {
+  const { t } = useTranslation();
   return (
     <div className="banner d-flex justify-content-center align-items-center">
       <Container className="text-center">
-        <h2 className="mb-4 text-light">Follow & Listen</h2>
+        <h2 className="mb-4 text-light">{t("home.follow")}</h2>
         <div className="streaming-links">
           <a
             href="https://open.spotify.com/artist/0xcCeyPuJNbOyokvI59lFp"

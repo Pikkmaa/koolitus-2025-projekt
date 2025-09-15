@@ -14,13 +14,12 @@ function BioMap() {
   const positions = [
     { coords: [59.437, 24.7536], name: "Tallinn" },
     { coords: [58.378, 26.729], name: "Tartu" },
-    { coords: [60.1699, 24.9384], name: "Helsinki" },
   ];
 
   return (
     <MapContainer
-      center={[59.437, 24.7536]}
-      zoom={6}
+      center={[58.600, 24.7536]}
+      zoom={7}
       style={{ height: "400px", width: "100%", marginTop: "1rem" }}
     >
       <TileLayer

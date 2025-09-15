@@ -329,53 +329,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
-/* Sidebar */
-.bio-sidebar .offcanvas-body {
-  padding: 0;
-  background: #fff;
-}
-
-.bio-nav {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.bio-nav li {
-  padding: 12px 16px;
-  cursor: pointer;
-  border-bottom: 1px solid #eaeaea;
-  transition: background 0.2s, color 0.2s;
-}
-
-.bio-nav li:hover {
-  background: rgba(255, 0, 128, 0.1); /* soft pink hover */
-  color: #ff0080;
-}
-
-/* Sidebar toggle button */
-.bio-sidebar-toggle {
-  position: fixed;
-  top: 90px;
-  left: 20px;
-  z-index: 1050;
-  background: #fff;
-  border: 2px solid #ff0080;
-  color: #ff0080;
-  font-weight: bold;
-  padding: 6px 12px;
-  border-radius: 8px;
-  transition: all 0.3s;
-}
-
-.bio-sidebar-toggle:hover {
-  background: #ff0080;
-  color: #fff;
-}
 
 /* Carousel */
 .bio-carousel img {
-  max-height: 550px;
+  max-height: 510px;
   object-fit: cover;
   border-radius: 12px;
 }
@@ -431,6 +388,28 @@
 .bio-section a:hover {
   color: #222;
   text-decoration: underline;
+}
+
+.lang-btn {
+  background: transparent;
+  border: 1px solid #ffd700;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  margin-left: 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+  background: #ffd700;
+  color: black;
+}
+
+.lang-btn.active {
+  background: #e378c8;
+  border-color: #e378c8;
 }
 
 

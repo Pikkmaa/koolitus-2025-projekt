@@ -1,0 +1,64 @@
+{
+  "navbar": {
+    "bio": "Bio",
+    "events": "Events",
+    "merch": "Merch",
+    "booking": "Booking",
+    "info": "Info",
+    "admin": "Admin",
+    "addEvent": "Add Event",
+    "addMerch": "Add Merch"
+  },
+  "home": {
+    "follow": "Follow & Listen"
+  },
+  "bio": {
+    "carousel": [
+      {
+        "title": "Night Flies",
+        "caption": "Clen Kink - Toomas Pikkmaa - Anna Siitan - Martin Parts - Madis Koll",
+        "image": "/images/night-flies.png"
+      },
+      {
+        "title": "On Stage",
+        "caption": "Energy and passion in live shows.",
+        "image": "/images/kinomaja_live.jpg"
+      },
+      {
+        "title": "Summer festivals",
+        "caption": "Little rain does not bother us!",
+        "image": "/images/NightFlies-074.jpg"
+      }
+    ],
+    "sections": {
+      "earlyYears": {
+        "title": "Early Years",
+        "text": "Night Flies began in the summer of 2020 when Martin (guitar) and Toomas (bass) started jamming together. Come autumn, they were joined by Madis (guitar).One dark autumn evening, after finishing the first draft of Smooth (song), they felt that the song deserved a bigger audience, resulting in the idea of forming a band. From 2021 spring to 2022 autumn the band was a brief home for various musicians while retaining the original trio. At the end of 2022, they were joined by Anna Siitan, with whom the band started using the name Night Flies."
+      },
+      "firstAlbum": {
+        "title": "First Album",
+        "albumTitle": "Smooth",
+        "image": "/images/smooth.png",
+        "description": "On April 28th year 2023, rock lovers got their first taste of Night Flies' debut full-length album, \"Smooth.\" Packed with nine irresistible, groove-laden tracks, the album is the perfect soundtrack for chasing the coming summer—windows down, volume up. Album captures the fleeting moments, the electric vibes, and the thoughts that zip by like a hot summer night. Album was recorded under the watchful eyes of Elmu Värk in the legendary Linnahall studio. The band lineup features Anna Siitan on vocals, Madis Koll and Martin Parts on guitars, Toomas Pikkmaa on bass, and Karl Martin Kukk on drums."
+      },
+      "secondAlbum": {
+        "title": "Second Album",
+        "albumTitle": "Four in the Morning",
+        "image": "/images/4am.jpg",
+        "description": "Lorem ipsum description of the second album..."
+      },
+      "lives": {
+        "title": "Lives",
+        "text": "Night Flies has matured with various live performances in Tallinn, Tartu, Pärnu, and Rakvere. The shows are immersive and filled with raw power. Night Flies has been played on various radio stations and they have performed on the ETV morning show Terevisioon "
+      },
+      "tvRadio": {
+        "title": "TV & Radio Appearances",
+        "text": "The band has been featured in Estonian radio & TV shows.",
+        "links": [
+          { "name": "ETV Interview 2022", "url": "https://example.com" },
+          { "name": "Radio 2 Live Session", "url": "https://example.com" }
+        ]
+      }
+    }
+  }
+}
