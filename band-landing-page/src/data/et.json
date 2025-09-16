@@ -7,7 +7,9 @@
     "info": "Info",
     "admin": "Admin",
     "addEvent": "Lisa sündmus",
-    "addMerch": "Lisa merch"
+    "addMerch": "Lisa merch",
+    "logout": "Logout",
+    "login": "Login"
   },
   "home": {
     "follow": "Jälgi & Kuula"
@@ -32,31 +34,30 @@
     ],
     "sections": {
       "earlyYears": {
-        "title": "Early Years",
-        "text": "Night Flies was founded in Tallinn... The first lineup included founding members with later changes shaping the sound."
+        "title": "Algus aastad",
+        "text": "Night Flies bändiga tegid algust Martin (kitarr) ja Toomas (bass) 2020 aasta suvel. Sügisel liitus seltskonnaga Madis (kitarr). Ühel õhtul, kui  valmis Smooth’i üsna algeline versioon tekkis mõte, et tarvis oleks see muusika viia suurema publiku ette ja otsustati moodustada bänd. Perioodil 2021 kevad - 2022 sügis käis bändist läbi mitmeid muusikuid, kuid põhikolmik jäi samaks. 2022 aasta lõpus liitus bändiga Anna Siitan, kellega koos esineti esmakordselt nime all Night Flies."
       },
       "firstAlbum": {
         "title": "Esimene Album",
         "albumTitle": "Smooth",
         "image": "/images/smooth.png",
-        "description": "28. aprillil 2023 jõudis rokisõpradeni Night Fliesi esimene täispikk album \"Smooth.\" Albumil kõlab üheksa mõnusat ja kaasahaaravat lugu, mis on ideaalne soundtrack suveks - aknad lahti, heli põhja. Albumil kõlav muusika räägib mööduvatest hetkedest, emotsioonidest ja mõtetest, mis lendavad mööda nagu kuum suveöö. Lood on salvestatud legendaarses Linnahalli stuudios Elmu Värgi hoolsa pilgu all.\nBändi koosseis: Anna Siitan – vokaal, Madis Koll ja Martin Parts – kitarrid, Toomas Pikkmaa – bass ja Karl Martin Kukk – trummid."
+        "description": "28. aprillil 2023 jõudis rokisõpradeni Night Fliesi esimene täispikk album \"Smooth.\" Albumil kõlab üheksa mõnusat ja kaasahaaravat lugu, mis on ideaalne soundtrack suveks - aknad lahti, heli põhja. Albumil kõlav muusika räägib mööduvatest hetkedest, emotsioonidest ja mõtetest, mis lendavad mööda nagu kuum suveöö. Lood on salvestatud legendaarses Linnahalli stuudios Elmu Värgi hoolsa pilgu all.\nBändi musitseerisid: Anna Siitan – vokaal, Madis Koll ja Martin Parts – kitarrid, Toomas Pikkmaa – bass ja Karl Martin Kukk – trummid."
       },
       "secondAlbum": {
         "title": "Teine Album",
         "albumTitle": "Four in the Morning",
         "image": "/images/4am.jpg",
-        "description": "Lorem ipsum description of the second album..."
+        "description": "13. detsember 2024 avaldas Night Flies EP nimega Four in the Morning, mis on eelmistest salvestistest veidi käredam ja viib meid Americana tolmustele teele. Album salvestati Linnahalli stuudios Indrek Patte käe all. Trummid salvestas bändi uusim liige Clen Kink"
       },
       "lives": {
-        "title": "Esinemised",
-        "text": "Night Flies has performed across multiple cities... Here are some locations."
+        "title": "Bändist",
+        "text": "Night Flies on viieliikmeline rokkbänd Tallinnast. 2022 aastal tegutsemist alustanud bänd on välja andnud täispika albumi Smooth, EP Four in the Morning ja singlid Final Stop, Sticks & Stones, One of the Guys ning Dear Doctor. Hoogsatest ja suviselt kergetest lauludest kumab läbi rokimaailma suurkujudest ammutatud inspiratsioon. Night Flies on küpsust kogunud erinevate live esinemistega nii Tallinnas, Tartus, Pärnus ja Rakveres. Showd on kaashaaravad ja energiast pakatavad. Hetkel tegeleb bänd teise täispikka albumi lugude kirjutamisega."
       },
       "tvRadio": {
-        "title": "TV & Radio Appearances",
-        "text": "The band has been featured in Estonian radio & TV shows.",
+        "title": "Televisoon ja raadio",
+        "text": "Bänd on esinenud ETVs Terevisioonis - vaata link",
         "links": [
-          { "name": "ETV Interview 2022", "url": "https://example.com" },
-          { "name": "Radio 2 Live Session", "url": "https://example.com" }
+          { "name": "Terevisioon 2024", "url": "https://eeter.err.ee/1609507435/hea-tuju-rokkband-night-flies-meie-lood-on-filmiliku-karakteriga" }
         ]
       }
     }

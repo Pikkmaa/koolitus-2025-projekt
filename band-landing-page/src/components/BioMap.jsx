@@ -12,8 +12,14 @@ L.Icon.Default.mergeOptions({
 
 function BioMap() {
   const positions = [
-    { coords: [59.437, 24.7536], name: "Tallinn" },
-    { coords: [58.378, 26.729], name: "Tartu" },
+    { coords: [59.431, 24.746], name: "Tallinn, The Krypt" },
+    { coords: [59.426, 24.774], name: "Tallinn, Kidrakuur" },
+    { coords: [59.437, 24.753], name: "Tallinn, Kinomaja" },
+    { coords: [58.383, 26.722], name: "Tartu, Genialistide Klubi" },
+    { coords: [59.352, 26.360], name: "Rakvere, Kära kants" },
+    { coords: [58.388, 24.503], name: "Pärnu, Wundebaar" },
+    { coords: [58.004, 27.341], name: "Veriora, Rock Stroganof" },
+    { coords: [58.736, 26.535], name: "Kuremaa, Jõgevatreff" },
   ];
 
   return (

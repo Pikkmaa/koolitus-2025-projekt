@@ -32,16 +32,13 @@ function Bio() {
         </Col>
       </Row>
 
-      {/* Bio Sections */}
       <Row>
         <Col md={10} className="mx-auto">
-          {/* Early Years */}
           <section className="bio-section">
             <h2>{sections.earlyYears.title}</h2>
             <p>{sections.earlyYears.text}</p>
           </section>
 
-          {/* First Album */}
           <section className="bio-section">
             <h2>{sections.firstAlbum.title}</h2>
             <img
@@ -55,7 +52,6 @@ function Bio() {
             <p>{sections.firstAlbum.description}</p>
           </section>
 
-          {/* Second Album */}
           <section className="bio-section">
             <h2>{sections.secondAlbum.title}</h2>
             <img
@@ -69,7 +65,6 @@ function Bio() {
             <p>{sections.secondAlbum.description}</p>
           </section>
 
-          {/* Lives */}
           <section className="bio-section">
             <h2>{sections.lives.title}</h2>
             <p>{sections.lives.text}</p>

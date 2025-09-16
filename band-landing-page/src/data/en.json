@@ -7,7 +7,9 @@
     "info": "Info",
     "admin": "Admin",
     "addEvent": "Add Event",
-    "addMerch": "Add Merch"
+    "addMerch": "Add Merch",
+    "logout": "Logout",
+    "login": "Login"
   },
   "home": {
     "follow": "Follow & Listen"
@@ -45,18 +47,17 @@
         "title": "Second Album",
         "albumTitle": "Four in the Morning",
         "image": "/images/4am.jpg",
-        "description": "Lorem ipsum description of the second album..."
+        "description": "On December 13th, 2024, Night Flies released an EP titled \"Four in the Morning.\" Compared to their previous recordings, this one carries a rougher edge and takes us straight onto the dusty American highways. The album was recorded at the legendary Linnahall Studio under the direction of Indrek Patte. The bands newest addition, Clen Kink, performed behind the drums this time."
       },
       "lives": {
-        "title": "Lives",
-        "text": "Night Flies has matured with various live performances in Tallinn, Tartu, Pärnu, and Rakvere. The shows are immersive and filled with raw power. Night Flies has been played on various radio stations and they have performed on the ETV morning show Terevisioon "
+        "title": "About the band",
+        "text": "Night Flies is a five-piece rock band from Tallinn. Formed in 2022, the band has released the full-length album \"Smooth\", EP \"Four in the Morning\" along with the singles \"Final Stop,\" \"Sticks & Stones,\" \"Dear Doctor,\" and \"One of the Guys.\" Their energetic yet breezy summer songs carry the influence of rock legends that inspired them. Night Flies has gained maturity through live performances across Tallinn, Tartu, Pärnu, and Rakvere. Their shows are captivating, packed with energy, and leave the audience buzzing. The band is currently working on writing material for their second full-length album."
       },
       "tvRadio": {
         "title": "TV & Radio Appearances",
-        "text": "The band has been featured in Estonian radio & TV shows.",
+        "text": "The band has been featured in ETV's Terevisioon - check out the link.",
         "links": [
-          { "name": "ETV Interview 2022", "url": "https://example.com" },
-          { "name": "Radio 2 Live Session", "url": "https://example.com" }
+          { "name": "ETV Interview 2024", "url": "https://eeter.err.ee/1609507435/hea-tuju-rokkband-night-flies-meie-lood-on-filmiliku-karakteriga" }
         ]
       }
     }
