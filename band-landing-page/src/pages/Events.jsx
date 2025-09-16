@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Spinner } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 
 function Events() {
   const [events, setEvents] = useState([]);
   const [loading, setLoading] = useState(true);
+  const { t } = useTranslation();
 
   const eventsUrl = "https://night-flies-page-default-rtdb.europe-west1.firebasedatabase.app/events.json"
 
@@ -38,7 +40,7 @@ function Events() {
             rel="noreferrer"
             className="btn"
           >
-            Facebook Event
+            {t("event.facebook")}
           </a>
         )}
         {upcoming && event.tickets && (
@@ -48,7 +50,7 @@ function Events() {
             rel="noreferrer"
             className="btn"
           >
-            Tickets
+            {t("event.tickets")}
           </a>
         )}
       </div>
@@ -57,23 +59,23 @@ function Events() {
 
   return (
     <div className="events-page">
-      <h2>Events</h2>
+      <h2>{t("event.pageName")}</h2>
 
       <div className="tabs">
         <input type="radio" id="upcoming" name="tab" defaultChecked />
-        <label htmlFor="upcoming">Upcoming</label>
+        <label htmlFor="upcoming">{t("event.upcoming")}</label>
 
         <input type="radio" id="past" name="tab" />
-        <label htmlFor="past">Past</label>
+        <label htmlFor="past">{t("event.past")}</label>
 
         <div className="tab-content" id="upcoming-content">
           {upcoming.length > 0 ? (
             <div className="grid">{upcoming.map(renderEventCard)}</div>
           ) : (
             <div className="no-events">
-              <p>No upcoming events.</p>
+              <p>{t("event.noEventsText")}</p>
               <Link to="/booking" className="btn">
-                Book Us
+                {t("event.booking")}
               </Link>
             </div>
           )}
@@ -84,7 +86,7 @@ function Events() {
             <div className="grid">{past.map(renderEventCard)}</div>
           ) : (
             <div className="no-events">
-              <p>No past events.</p>
+              <p>{t("event.noPastEventsText")}</p>
             </div>
           )}
         </div>

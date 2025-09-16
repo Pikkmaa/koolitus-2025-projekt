@@ -14,6 +14,41 @@
   "home": {
     "follow": "Jälgi & Kuula"
   },
+  "event": {
+    "pageName": "Südmused",
+    "tickets": "Piletid",
+    "upcoming": "Eelolevad",
+    "past": "Möödunud",
+    "noEventsText": "Eelolevad südmused puuduvad",
+    "noPastEventsText": "Möödunud südmused puuduvad",
+    "booking": "Broneeri meid",
+    "facebook": "Facebook"
+
+  },
+  "merch": {
+    "size": "Suurused",
+    "buyLink": "Osta"
+  },
+  "booking": {
+    "title": "Broneering",
+    "personName": "Sinu nimi",
+    "email": "Email",
+    "eventName": "Südmuse nimi",
+    "eventLocation": "Toimumiskoht",
+    "message": "Sõnum",
+    "bookingRequest": "Saada pakkumine"
+  },
+  "info": {
+    "general": "Üldinfo",
+    "organizer": "Korraldajale",
+    "contact": "Kontakt isik:",
+    "aadress": "Aadress:",
+    "resources": "Vajalikku",
+    "dlRider": "Lae alla tehniline raider",
+    "dlLogoPNG": "Lae alla logo PNG",
+    "dlLogoSVG": "Lae alla logo SVG",
+    "dlPhotos": "Lae alla fotogalerii"
+  },
   "bio": {
     "carousel": [
       {
@@ -47,7 +82,7 @@
         "title": "Teine Album",
         "albumTitle": "Four in the Morning",
         "image": "/images/4am.jpg",
-        "description": "13. detsember 2024 avaldas Night Flies EP nimega Four in the Morning, mis on eelmistest salvestistest veidi käredam ja viib meid Americana tolmustele teele. Album salvestati Linnahalli stuudios Indrek Patte käe all. Trummid salvestas bändi uusim liige Clen Kink"
+        "description": "13. detsember 2024 avaldas Night Flies EP nimega Four in the Morning, mis on eelmistest salvestistest veidi käredam ja viib meid Americana tolmustele teele. Album salvestati Linnahalli stuudios Indrek Patte käe all. Trummid mängis sisse bändi uusim liige Clen Kink."
       },
       "lives": {
         "title": "Bändist",

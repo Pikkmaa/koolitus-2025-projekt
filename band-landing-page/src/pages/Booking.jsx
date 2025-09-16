@@ -1,9 +1,11 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import toast from "react-hot-toast";
+import { useTranslation } from "react-i18next";
 
 function Booking() {
   const form = useRef();
+  const { t } = useTranslation();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -29,34 +31,34 @@ function Booking() {
 
   return (
     <div className="booking-page">
-      <h2>Book Us</h2>
+      <h2>{t("booking.title")}</h2>
       <form ref={form} onSubmit={sendEmail} className="booking-form">
         <label>
-          Your name
+          {t("booking.personName")}
           <input type="text" name="person_name" required />
         </label>
 
         <label>
-          Email
+          {t("booking.email")}
           <input type="email" name="email" required />
         </label>
 
         <label>
-          Event Name
+          {t("booking.eventName")}
           <input type="text" name="event_name" required />
         </label>
 
         <label>
-          Location
+          {t("booking.eventLocation")}
           <input type="text" name="location" required />
         </label>
 
         <label>
-          Your Message
+          {t("booking.message")}
           <textarea name="message" rows="5" required />
         </label>
 
-        <button type="submit">Send Booking Request</button>
+        <button type="submit">{t("booking.bookingRequest")}</button>
       </form>
     </div>
   );

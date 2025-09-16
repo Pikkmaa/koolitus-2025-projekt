@@ -211,6 +211,10 @@
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
+.card .btn {
+  margin-top: auto; /* pushes button to the bottom */
+  align-self: center; /* center button horizontally (optional) */
+}
 
 .event-title {
   font-weight: bold;
@@ -242,6 +246,10 @@
 .no-events p {
   margin-bottom: 1rem;
   font-size: 1.1rem;
+}
+
+.event-location {
+  margin-bottom: 4px;
 }
 
 .booking-page {
@@ -320,17 +328,14 @@
   display: block;
 }
 
-/* General page layout */
 .bio-page {
-  background: #fafafa; /* light background */
-  color: #222;         /* dark text for readability */
-  padding-top: 80px;   /* avoid navbar overlap */
+  background: #fafafa;
+  color: #222;
+  padding-top: 80px;
   min-height: 100vh;
   font-family: 'Roboto', sans-serif;
 }
 
-
-/* Carousel */
 .bio-carousel img {
   max-height: 510px;
   object-fit: cover;
@@ -344,7 +349,6 @@
   padding: 10px;
 }
 
-/* Sections */
 .bio-section {
   margin-top: 60px;
   padding: 20px;
@@ -358,8 +362,33 @@
   color: #ff0080;
   margin-bottom: 16px;
 }
+.bio-section p {
+  text-align: justify;
+}
 
-/* Album covers */
+.bio-section p.album-title {
+  text-align: center;
+  font-weight: bold; /* optional, makes it stand out */
+}
+
+.bio-section-radio {
+  margin-top: 60px;
+  padding: 20px;
+  border-left: 4px solid #ff0080;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.bio-section-radio h2 {
+  color: #ff0080;
+  margin-bottom: 16px;
+}
+
+.bio-section-radion li {
+  align-items: center;
+}
+
 .album-cover {
   width: 250px;
   height: 250px;
@@ -370,7 +399,6 @@
   box-shadow: 0px 4px 10px rgba(255, 0, 128, 0.2);
 }
 
-/* Map */
 .leaflet-container {
   border: 2px solid #ff0080;
   border-radius: 12px;
@@ -378,7 +406,6 @@
   box-shadow: 0px 4px 12px rgba(255, 0, 128, 0.2);
 }
 
-/* Links */
 .bio-section a {
   color: #ff0080;
   text-decoration: none;

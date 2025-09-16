@@ -14,6 +14,41 @@
   "home": {
     "follow": "Follow & Listen"
   },
+  "event": {
+    "pageName": "Events",
+    "tickets": "Tickets",
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "noEventsText": "No upcoming events",
+    "noPastEventsText": "No past events",
+    "booking": "Book Us",
+    "facebook": "Facebook"
+
+  },
+  "merch": {
+    "size": "Size",
+    "buyLink": "Buy it"
+  },
+  "booking": {
+    "title": "Booking",
+    "personName": "Your name",
+    "email": "Email",
+    "eventName": "Event name",
+    "eventLocation": "Event location",
+    "message": "Message",
+    "bookingRequest": "Send a booking request!"
+  },
+  "info": {
+    "general": "General info",
+    "organizer": "For organizer",
+    "contact": "Contact person:",
+    "aadress": "Address:",
+    "resources": "Resources",
+    "dlRider": "Download technical rider",
+    "dlLogoPNG": "Download logo PNG",
+    "dlLogoSVG": "Download logo SVG",
+    "dlPhotos": "Download Photo collection"
+  },
   "bio": {
     "carousel": [
       {
@@ -41,7 +76,7 @@
         "title": "First Album",
         "albumTitle": "Smooth",
         "image": "/images/smooth.png",
-        "description": "On April 28th year 2023, rock lovers got their first taste of Night Flies' debut full-length album, \"Smooth.\" Packed with nine irresistible, groove-laden tracks, the album is the perfect soundtrack for chasing the coming summer—windows down, volume up. Album captures the fleeting moments, the electric vibes, and the thoughts that zip by like a hot summer night. Album was recorded under the watchful eyes of Elmu Värk in the legendary Linnahall studio. The band lineup features Anna Siitan on vocals, Madis Koll and Martin Parts on guitars, Toomas Pikkmaa on bass, and Karl Martin Kukk on drums."
+        "description": "On April 28th year 2023, rock lovers got their first taste of Night Flies' debut full-length album, \"Smooth.\" Packed with nine irresistible, groove-laden tracks, the album is the perfect soundtrack for chasing the coming summer - windows down, volume up. Album captures the fleeting moments, the electric vibes, and the thoughts that zip by like a hot summer night. Album was recorded under the watchful eyes of Elmu Värk in the legendary Linnahall studio. The band lineup features Anna Siitan on vocals, Madis Koll and Martin Parts on guitars, Toomas Pikkmaa on bass, and Karl Martin Kukk on drums."
       },
       "secondAlbum": {
         "title": "Second Album",

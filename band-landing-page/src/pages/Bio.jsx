@@ -4,8 +4,6 @@ import { useTranslation } from "react-i18next";
 
 function Bio() {
   const { t } = useTranslation();
-
-  // Get carousel and sections from translations
   const carouselItems = t("bio.carousel", { returnObjects: true });
   const sections = t("bio.sections", { returnObjects: true });
 
@@ -46,7 +44,7 @@ function Bio() {
               alt={sections.firstAlbum.albumTitle}
               className="album-cover"
             />
-            <p>
+            <p className="album-title">
               {sections.firstAlbum.albumTitle}
             </p>
             <p>{sections.firstAlbum.description}</p>
@@ -59,7 +57,7 @@ function Bio() {
               alt={sections.secondAlbum.albumTitle}
               className="album-cover"
             />
-            <p>
+            <p className="album-title">
               {sections.secondAlbum.albumTitle}
             </p>
             <p>{sections.secondAlbum.description}</p>
@@ -71,17 +69,14 @@ function Bio() {
             <BioMap />
           </section>
 
-          {/* TV & Radio */}
-          <section className="bio-section">
+          <section className="bio-section-radio">
             <h2>{sections.tvRadio.title}</h2>
             <p>{sections.tvRadio.text}</p>
             <ul>
               {sections.tvRadio.links.map((link, index) => (
-                <li key={index}>
-                  <a href={link.url} target="_blank" rel="noreferrer">
+                  <a key={index} href={link.url} target="_blank" rel="noreferrer">
                     {link.name}
                   </a>
-                </li>
               ))}
             </ul>
           </section>
