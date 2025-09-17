@@ -26,7 +26,6 @@ function Info() {
           </p>
         </div>
 
-        {/* Organizer Info Content */}
         <div className="tab-content" id="organizer-content">
           <h3>{t("info.resources")}</h3>
           <p>
